@@ -9,6 +9,4 @@ import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.suggestion.SuggestionProvider;
 
 public class nuke extends command {
-   public static
-
 }
