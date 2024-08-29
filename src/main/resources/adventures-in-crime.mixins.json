@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "dj.aic.mixin",
+	"package": "com.dj.aic.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "adventures-in-crime",
 	"version": "${version}",
-	"name": "adventures in crime",
+	"name": "Adventures In Crime",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -16,24 +16,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"dj.aic.AdventuresInCrime"
-		],
-		"client": [
-			"dj.aic.AdventuresInCrimeClient"
+			"com.dj.aic.AdventuresInCrime"
 		],
 		"fabric-datagen": [
-			"dj.aic.AdventuresInCrimeDataGenerator"
+			"com.dj.aic.AdventuresInCrimeDataGenerator"
 		]
 	},
 	"mixins": [
-		"adventures-in-crime.mixins.json",
-		{
-			"config": "adventures-in-crime.client.mixins.json",
-			"environment": "client"
-		}
+		"adventures-in-crime.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.2",
+		"fabricloader": ">=0.16.3",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"

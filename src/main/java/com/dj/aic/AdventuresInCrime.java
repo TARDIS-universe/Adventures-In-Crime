@@ -1,4 +1,4 @@
-package dj.aic;
+package com.dj.aic;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -19,6 +19,6 @@ public class AdventuresInCrime implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello cruel world!");
+		LOGGER.info("Hello Fabric world!");
 	}
 }
